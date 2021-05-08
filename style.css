@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #323232;
+    padding: 4rem;
+}
+
+.hoverboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hoverboard .box{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: #424242;
+    box-shadow: 1px 1px 5px 0px #424242;
+    transition: color 0.3s, box-shadow 0.3s;
+}
